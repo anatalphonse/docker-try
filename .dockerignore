@@ -1,0 +1,35 @@
+# Don't include Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Don't include virtual environments
+venv/
+.env/
+.env.*  # any .env files, if you don't want them inside image
+
+# Don't include Git metadata
+.git
+.gitignore
+
+# Don't include editor files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# Docker files themselves
+Dockerfile
+.dockerignore
+
+# IDE/project config
+.idea/
+.vscode/
+*.code-workspace
+
+# Build and dist folders (if you build wheels, etc.)
+build/
+dist/
+*.egg-info/
